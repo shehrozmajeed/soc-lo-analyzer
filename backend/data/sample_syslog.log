@@ -1,0 +1,20 @@
+Oct 10 13:00:00 server kernel: [    0.000000] Linux version 5.15.0 (gcc 11.3.0)
+Oct 10 13:01:00 server systemd[1]: Started Session 1 of user root.
+Oct 10 13:05:00 server sudo[2001]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct 10 13:05:05 server sudo[2002]: FAILED su for root by www-data
+Oct 10 13:10:00 server kernel: [12345.678901] Firewall: IN=eth0 OUT= SRC=91.108.4.55 DST=192.168.1.1 PROTO=TCP DPT=22 DROPPED
+Oct 10 13:10:01 server kernel: [12346.678901] Firewall: IN=eth0 OUT= SRC=91.108.4.55 DST=192.168.1.1 PROTO=TCP DPT=23 DROPPED
+Oct 10 13:10:02 server kernel: [12347.678901] Firewall: IN=eth0 OUT= SRC=91.108.4.55 DST=192.168.1.1 PROTO=TCP DPT=80 DROPPED
+Oct 10 13:10:03 server kernel: [12348.678901] Firewall: IN=eth0 OUT= SRC=91.108.4.55 DST=192.168.1.1 PROTO=TCP DPT=443 DROPPED
+Oct 10 13:10:04 server kernel: [12349.678901] Firewall: IN=eth0 OUT= SRC=91.108.4.55 DST=192.168.1.1 PROTO=TCP DPT=3306 DROPPED
+Oct 10 13:15:00 server cron[3001]: (root) CMD (/usr/bin/python3 /tmp/backdoor.py)
+Oct 10 13:20:00 server useradd[4001]: new user: name=hacker, UID=0, GID=0, home=/root, shell=/bin/bash
+Oct 10 13:25:00 server passwd[4002]: password changed for hacker
+Oct 10 14:00:00 server auditd[5001]: type=USER_LOGIN msg=audit(1696953600.001:100): pid=1234 uid=0 auid=0 ses=1 msg='op=login acct="root" exe="/bin/login" hostname=? addr=45.33.32.156 terminal=ssh res=failed'
+Oct 10 14:00:01 server auditd[5001]: type=USER_LOGIN msg=audit(1696953601.001:101): pid=1234 uid=0 auid=0 ses=1 msg='op=login acct="root" exe="/bin/login" hostname=? addr=45.33.32.156 terminal=ssh res=failed'
+Oct 10 14:05:00 server kernel: [15000.000000] Out of memory: Kill process 6001 (apache2) score 900 or sacrifice child
+Oct 10 14:10:00 server syslog: disk usage at 95% on /dev/sda1
+Oct 10 14:15:00 server ntpd[6001]: no servers reachable
+Oct 10 14:20:00 server sudo[7001]: bob : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/bin/chmod 777 /etc/passwd
+Oct 10 14:25:00 server kernel: [18000.000000] Firewall: IN=eth0 OUT= SRC=203.0.113.200 DST=192.168.1.1 PROTO=UDP DPT=53 DROPPED
+Oct 10 15:00:00 server systemd[1]: Unit apache2.service entered failed state.

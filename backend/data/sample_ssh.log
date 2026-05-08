@@ -1,0 +1,35 @@
+Oct 10 13:00:01 server sshd[1234]: Accepted password for admin from 192.168.1.10 port 52341 ssh2
+Oct 10 13:05:00 server sshd[1235]: Failed password for root from 45.33.32.156 port 44302 ssh2
+Oct 10 13:05:01 server sshd[1235]: Failed password for root from 45.33.32.156 port 44303 ssh2
+Oct 10 13:05:02 server sshd[1235]: Failed password for root from 45.33.32.156 port 44304 ssh2
+Oct 10 13:05:03 server sshd[1235]: Failed password for root from 45.33.32.156 port 44305 ssh2
+Oct 10 13:05:04 server sshd[1235]: Failed password for root from 45.33.32.156 port 44306 ssh2
+Oct 10 13:05:05 server sshd[1235]: Failed password for root from 45.33.32.156 port 44307 ssh2
+Oct 10 13:05:06 server sshd[1235]: Failed password for root from 45.33.32.156 port 44308 ssh2
+Oct 10 13:05:07 server sshd[1235]: Failed password for root from 45.33.32.156 port 44309 ssh2
+Oct 10 13:05:08 server sshd[1235]: Failed password for root from 45.33.32.156 port 44310 ssh2
+Oct 10 13:05:09 server sshd[1235]: Failed password for root from 45.33.32.156 port 44311 ssh2
+Oct 10 13:05:10 server sshd[1235]: Failed password for root from 45.33.32.156 port 44312 ssh2
+Oct 10 13:10:00 server sshd[1236]: Invalid user admin from 198.51.100.50 port 55123 ssh2
+Oct 10 13:10:01 server sshd[1236]: Invalid user test from 198.51.100.50 port 55124 ssh2
+Oct 10 13:10:02 server sshd[1236]: Invalid user guest from 198.51.100.50 port 55125 ssh2
+Oct 10 13:15:00 server sshd[1237]: Accepted publickey for deploy from 10.0.0.5 port 43210 ssh2
+Oct 10 13:20:00 server sshd[1238]: Failed password for invalid user oracle from 203.0.113.100 port 12345 ssh2
+Oct 10 13:20:01 server sshd[1238]: Failed password for invalid user oracle from 203.0.113.100 port 12346 ssh2
+Oct 10 13:20:02 server sshd[1238]: Failed password for invalid user oracle from 203.0.113.100 port 12347 ssh2
+Oct 10 13:20:03 server sshd[1238]: Failed password for invalid user oracle from 203.0.113.100 port 12348 ssh2
+Oct 10 13:20:04 server sshd[1238]: Failed password for invalid user oracle from 203.0.113.100 port 12349 ssh2
+Oct 10 13:25:00 server sshd[1239]: Accepted password for webmaster from 192.168.1.20 port 61000 ssh2
+Oct 10 14:00:00 server sshd[1240]: Connection closed by 91.108.4.55 port 33445 [preauth]
+Oct 10 14:00:05 server sshd[1241]: Connection closed by 91.108.4.55 port 33446 [preauth]
+Oct 10 14:00:10 server sshd[1242]: Connection closed by 91.108.4.55 port 33447 [preauth]
+Oct 10 14:30:00 server sshd[1243]: Accepted password for alice from 172.16.0.10 port 54321 ssh2
+Oct 10 14:35:00 server sshd[1244]: Failed password for root from 185.220.101.12 port 22100 ssh2
+Oct 10 14:35:01 server sshd[1244]: Failed password for root from 185.220.101.12 port 22101 ssh2
+Oct 10 14:35:02 server sshd[1244]: Failed password for root from 185.220.101.12 port 22102 ssh2
+Oct 10 14:35:03 server sshd[1244]: Failed password for root from 185.220.101.12 port 22103 ssh2
+Oct 10 14:35:04 server sshd[1244]: Failed password for root from 185.220.101.12 port 22104 ssh2
+Oct 10 14:35:05 server sshd[1244]: Failed password for root from 185.220.101.12 port 22105 ssh2
+Oct 10 14:35:06 server sshd[1244]: Failed password for root from 185.220.101.12 port 22106 ssh2
+Oct 10 14:35:07 server sshd[1244]: Failed password for root from 185.220.101.12 port 22107 ssh2
+Oct 10 15:00:00 server sshd[1245]: Disconnected from user admin 192.168.1.10 port 52341 ssh2
