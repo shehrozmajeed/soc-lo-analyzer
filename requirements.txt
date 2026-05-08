@@ -1,0 +1,20 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9      # required for FastAPI file uploads
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.30
+
+# ── ML / Data ─────────────────────────────────────────────────────────────────
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit==1.35.0
+plotly==5.22.0
+requests==2.32.2
+
+# ── Reports (optional) ────────────────────────────────────────────────────────
+reportlab==4.2.0             # PDF generation (optional – falls back to .txt)
